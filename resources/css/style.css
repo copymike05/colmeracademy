@@ -1,0 +1,387 @@
+  *{
+text-decoration: none;
+
+}
+
+/*Header Section*/
+
+.navigation {
+  font-family: Verdana;
+  font-size: 14px;
+  top: 0px;
+  height: 64px;
+  width: 100%;
+  padding-top:5px;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  padding-left: 24px;
+}
+
+.desktop-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+background-color: white;
+color: #403b3b;
+}
+
+h1 {
+  color: #22292b;
+  font-family: Roboto Condensed;
+}
+
+a {
+  color: rgb(30,30,30);
+}
+
+a:hover{
+  color: #295384;
+}
+
+nav li {
+  display: inline-block;
+  padding: 16px 24px;
+}
+
+.mobile-header, .mobile-classes, .banner-mobile {
+  display: none;
+}
+
+/* Top Section */
+
+p {
+  font-family: Raleway;
+}
+
+.content {
+  padding-top: 32px;
+  margin:auto;
+  width: 1300px;
+}
+
+.banner-desktop{
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  background-color: #C0C0C0;
+}
+
+.banner-desktop-left {
+  padding: 24px 32px;
+  width: 60%;
+}
+
+.banner-desktop-left img{
+  max-width: 100%;
+}
+
+.banner-desktop-right{
+    padding-right: 25px;
+    max-width: 100%;
+}
+
+.banner-desktop-right h1, p{
+    font-weight: bold;
+    width: 60%;
+}
+
+button {
+  cursor: pointer;
+  background-color: #346e69;
+  width: 35%;
+  border-radius: 15px;
+  color: white;
+  padding: 8px;
+}
+
+button:hover {
+  background-color: #1e767e;
+}
+
+/* About Section */
+
+.about-section {
+  display: flex;
+  background-color: #E0E0E0;
+}
+
+/* About Section - Left Side */
+
+.about-section-left {
+  padding: 24px 32px;
+  width: 60%;
+}
+
+.about-section-left img, p {
+  width: 100%;
+}
+
+
+/* About Section - Right Side */
+
+.about-section-right {
+  padding-top: 24px;
+}
+ .about-section-right span {
+   padding: 20px;
+}
+
+.about-section-right span h2 {
+   font-weight: bold;
+   font-size: 20px;
+   font-family: Lato;
+}
+
+.about-section-right span p:nth-child(even) {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Raleway;
+}
+
+.about-section-right span p:last-child {
+   font-family: Roboto Condensed;
+   font-weight: bold;
+}
+
+
+.about-section-right span p:last-child:hover{
+   color: #295384;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.desktop-images{
+  width: 35%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.about-section-right-content{
+  align-items: center;
+  border-top: 1px solid;
+  border-top-color: #8FBC8F;
+  display: flex;
+}
+
+.about-section-bottom-content{
+  background-color: #C0C0C0;
+  border-top: 1px solid;
+  border-top-color: #8FBC8F;
+  border-bottom: 1px solid;
+  border-bottom-color: #8FBC8F;
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+/* Learning Section */
+
+.course-section{
+background-color: #C0C0C0;
+padding: 32px 72px;
+}
+
+.course-section h1{
+  text-align: center;
+}
+
+.course-content {
+  display: flex;
+}
+
+.course-content-class{
+  width: 100%;
+  margin: 24px;
+  background-color: white;
+}
+
+.course-content-class p, h3{
+padding-left: 16px;
+width: 80%;
+}
+
+.course-content-class img {
+width: 100%;
+}
+
+h3 {
+  font-family: Lato;
+}
+
+
+/* Thesis Section */
+
+.thesis {
+padding-top:24px;
+background-color: #E0E0E0;
+}
+
+.thesis h1{
+text-align: center;
+}
+
+.thesis-content {
+  display: flex;
+  padding-top: 24px;
+}
+
+.thesis-left {
+width: 60%;
+padding: 24px;
+}
+
+.thesis-left video, p {
+ width: 100%;
+}
+
+.thesis-right {
+  display: block;
+  width: 40%;
+  padding-top: 24px;
+}
+
+.thesis-right-top-content {
+  display: flex;
+  align-items: center;
+  border-top-color: #8FBC8F;
+  border-top: 1px solid;
+}
+
+.thesis-right img {
+  height: auto;
+  width: 35%;
+  padding: 16px;
+}
+
+.thesis-right-bottom-content {
+  display: flex;
+  align-items: center;
+  border-top-color: #8FBC8F;
+  border-top: 1px solid;
+  width: 100%;
+}
+
+.thesis-right bottom img {
+  height: auto;
+  width: 35%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.thesis-right span {
+  padding-left: 10px
+}
+
+.thesis-right h2{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Lato;
+}
+
+.thesis-right p{
+  font-family: Roboto Condensed;
+  padding-top: 8px;
+  font-weight: bold;
+}
+
+/* Footer Section */
+
+footer {
+  border-top: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer nav li {
+  font-weight: bold;
+}
+
+nav li:hover{
+  color: #295384;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Mobile Styling */
+
+@media only screen and (max-width: 600px) {
+
+
+.logo, .desktop-header, footer nav li,
+.about-section-left, .course-content,
+.banner-desktop-left, .banner-desktop-right,
+.thesis-right, .thesis-left h3,
+.thesis-left p {
+    display: none;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.course-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.banner-mobile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-mobile button{
+  margin-top: 4px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+
+.content, .banner-mobile,
+.banner-mobile img, .thesis-left, .about-section-right {
+ width: 100%
+}
+
+.mobile-classes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.classes {
+  margin-top: 0.5rem;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #000a15;
+  border-radius: 15px;
+}
+
+.classes:hover {
+  cursor: pointer;
+  background-color: #00004e;
+}
+
+.about-section-right-box{
+  width: 100%;
+}
+
+.thesis-content {
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
